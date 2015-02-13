@@ -1,0 +1,13 @@
+<template name="todosItem">
+ <span>{{emailid}}</span>
+<div>
+     <input type="text" value="{{text}}" placeholder="Task name ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="js-delete-item delete-item" align=" right" href="#"><span class="icon-trash"></span></a>
+    <span>{{timeSince createdAt}}</span><!-- <span>{{sharedBY}}ss</span> -->
+		{{#each documentUsers}}
+			{{sharedTO}}
+		{{/each}}
+    </div>
+ 
+
+</template>
